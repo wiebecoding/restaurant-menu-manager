@@ -58,41 +58,41 @@ export default class AddItems extends Component{
             <div>
                 <h3>Add Menu Item</h3>
                 <form onSubmit={this.onSubmit}>
-                    <div className="form-group"> {/*THis?*/}
+                    <div className="form-group">
                         <label>Menu Item Name: </label>
                         <input type="text" 
                             required
                             className="form-control"
                             value={this.state.itemname}
                             onChange={this.onChangeItemname}
-                            />
+                        />
                     </div>
-                    <div className="form-group"> {/*THis?*/}
+                    <div className="form-group">
                         <label>Description: </label>
                         <input type="text" 
                             required
                             className="form-control"
                             value={this.state.description}
                             onChange={this.onChangeDescription}
-                            />
+                        />
                     </div>
-                    <div className="form-group"> {/*THis?*/}
+                    <div className="form-group">
                         <label>Price: </label>
                         <input type="text"
                             required
                             className="form-control"
                             value={this.state.price}
                             onChange={this.onChangePrice}
-                            />
+                        />
                     </div>
-                    <div className="form-group"> {/*THis?*/}
+                    <div className="form-group">
                         <label>Show: </label>
                         <input type="Boolean"
                             required
                             className="form-control"
                             value={this.state.show}
                             onChange={this.onChangeShow}
-                            />
+                        />
                     </div>
 
                     <div className="form-group">
