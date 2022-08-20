@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import axios from "axios";
 
 export default class AddItems extends Component{
     constructor(props){
@@ -42,7 +43,6 @@ export default class AddItems extends Component{
 
     onSubmit(e){
         e.preventDefault();
-        
         const item = {
             itemname: this.state.itemname,
             description: this.state.description,
@@ -50,6 +50,9 @@ export default class AddItems extends Component{
             show: this.state.show,
         }
         console.log(item);
+
+        axios.post('http://localhost:5000/items/add', item)
+            .then(res => console.log(res.data));
         window.location = "/menu-add";
     }
 
