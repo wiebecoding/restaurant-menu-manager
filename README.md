@@ -8,9 +8,9 @@ This project was developed using "Create React App". My learning was suplemented
 
 ## Current Functionality
 
-/ = main menu page to be viewed by public
-/menu-add = administrative view to add new items to the menu
-/admin-view = administrative view to see all items (including those not shown on the main page) with links to remove and edit menu items.
+/ = main menu page to be viewed by public. <br>
+/menu-add = administrative view to add new items to the menu. <br>
+/admin-view = administrative view to see all items (including those not shown on the main page) with links to remove and edit menu items.  <br>
 
 ## Future Functionality
 
