@@ -51,8 +51,9 @@ export default class AddItems extends Component{
         }
         console.log(item);
 
-        axios.post('http://localhost:5000/items/add', item)
+        axios.post('http://localhost:3001/items/add', item)
             .then(res => console.log(res.data));
+        
         window.location = "/menu-add";
     }
 
@@ -90,12 +91,10 @@ export default class AddItems extends Component{
                     </div>
                     <div className="form-group">
                         <label>Show: </label>
-                        <input type="Boolean"
-                            required
-                            className="form-control"
-                            value={this.state.show}
-                            onChange={this.onChangeShow}
-                        />
+                        <select value={this.state.value} onChange={this.onChangeShow}>
+                            <option value="true">true</option>
+                            <option value="false">false</option>
+                        </select>
                     </div>
 
                     <div className="form-group">
