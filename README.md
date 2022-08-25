@@ -4,7 +4,7 @@ This project was used to learn both MongoDB and React.JS while developing a pote
 
 With this, I hoped to solve the issue of restaurants having inaccurate information up on their website. From my research, I determined that the lack of simplicity caused for an aversion to updating the wesbite with relavant information. 
 
-This project was developed using "Create React App". My learning was suplemented by ["Learn the MERN Stack - Full Tutorial"](https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org) by FreeCodeCamp.org.
+This project was developed using ["Create React App"](https://reactjs.org/docs/create-a-new-react-app.html). My learning was suplemented by ["Learn the MERN Stack - Full Tutorial"](https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org) by FreeCodeCamp.org.
 
 ## Current Functionality
 
